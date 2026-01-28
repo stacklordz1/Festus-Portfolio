@@ -38,7 +38,7 @@ const UnderConstruction = () => {
                     <motion.h1
                         variants={item}
                         transition={{ duration: 1, ease: "easeOut" }}
-                        className="text-[10rem] sm:text-[14rem] md:text-[22rem] text-white/10 leading-none font-extrabold select-none relative"
+                        className="text-[10rem] sm:text-[14rem] md:text-[22rem] text-neutral-700 dark:text-white/10 leading-none font-extrabold select-none relative"
                     >
                         503
                         <motion.p
@@ -46,7 +46,7 @@ const UnderConstruction = () => {
                             transition={{ duration: 1.2, ease: "easeOut" }}
                             className="absolute inset-0 flex items-center justify-center translate-y-5 md:translate-y-10
                                        whitespace-nowrap text-xl sm:text-2xl md:text-5xl 
-                                       text-sky-300 font-bold uppercase tracking-widest"
+                                      text-sky-600 dark:text-sky-300 font-bold uppercase tracking-widest"
                         >
                             Development in Progress
                         </motion.p>
@@ -56,7 +56,7 @@ const UnderConstruction = () => {
                     <motion.p
                         variants={item}
                         transition={{ duration: 1.5, ease: "easeOut" }}
-                        className="mt-8 sm:mt-10 text-white/80 text-sm sm:text-base md:text-lg max-w-xs sm:max-w-lg md:max-w-3xl px-2"
+                        className="mt-8 sm:mt-10 text-black dark:text-white/80 text-sm sm:text-base md:text-lg max-w-xs sm:max-w-lg md:max-w-3xl px-2"
                     >
                         I'm currently giving my portfolio a glow up, modern vibes, smooth UI to showcase my work and skills .
                         Trust me, you’ll want to stick around for the{" "}
