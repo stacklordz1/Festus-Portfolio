@@ -1,10 +1,13 @@
 import React from 'react'
-import UnderConstruction from './components/UnderConstruction'
+import { UnderConstruction } from '../src/components/UnderConstruction'
+import { Home } from '../src/Home'
 
 const App = () => {
+  const showPortfolio = false
+
   return (
     <div>
-      <UnderConstruction />
+      {showPortfolio ? <UnderConstruction /> : <Home />}
     </div>
   )
 }
