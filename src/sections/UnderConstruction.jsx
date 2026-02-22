@@ -8,7 +8,7 @@ import {
     ModalFooter,
 } from "../components/ui/AnimatedModal";
 import { MdOutlineUpdate } from "react-icons/md";
-import { AuroraBackground } from "./ui/AuroraBackground";
+import { AuroraBackground } from "../components/ui/AuroraBackground";
 
 /* Motion variants */
 const container = {
