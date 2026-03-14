@@ -11,7 +11,7 @@ import Loader from './components/loader/LoaderOneDemo.jsx'
 import { AuroraBackground } from './components/ui/AuroraBackground.jsx'
 
 const App = () => {
-  const SHOW_503 = false; // change to true when under construction
+  const SHOW_503 = true; // change to true when under construction
 
   const [isLoading, setIsLoading] = useState(true)
 
