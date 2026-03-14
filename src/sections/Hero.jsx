@@ -17,13 +17,13 @@ const Hero = () => {
   const seconds = String(time.getSeconds()).padStart(2, '0')
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-white px-6 text-center mt-15 gap-6">
+    <section className="min-h-screen flex flex-col justify-center items-center text-white px-6 text-center pt-36 gap-6">
       
       {/* Live status */}
-      <div className="flex flex-row items-center gap-4 mb-6">
+      <div className="flex flex-row items-center gap-8 mb-6">
         {/* Availability */}
         <div className="flex items-center justify-center gap-2 border border-neutral-300 dark:border-white/10 
-        rounded-2xl bg-neutral-100 dark:bg-black/20 px-4 py-2 text-sm md:text-base">
+        rounded-full bg-neutral-100 dark:bg-black/20 px-4 py-2 text-sm md:text-base">
           <span className="h-2.5 w-2.5 rounded-full bg-green-600 animate-pulse ring-2 ring-green-600/40" />
           <span>Open to Work</span>
         </div>
@@ -58,7 +58,7 @@ const Hero = () => {
       </div>
 
       {/* Social icons */}
-      <div className="flex flex-col justify-center items-center ">
+      <div className="flex flex-col justify-center items-center pb-10 ">
         <p className='mb-4'>Connect with me:</p>
         <SocialIcon />
       </div>
