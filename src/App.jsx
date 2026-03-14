@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import UnderConstruction from '../src/sections/UnderConstruction'
 import Navbar from './components/layout/NavbarDemo.jsx'
 import Hero from '../src/sections/Hero'
-import Skills from '../src/sections/Skills'
 import About from '../src/sections/About'
 import Project from '../src/sections/Project'
 import Testimonial from '../src/sections/Testimonial'
@@ -35,7 +34,6 @@ const App = () => {
         <Navbar/>
         <Hero/>
       </AuroraBackground>
-      <Skills />
       <About />
       <Project />
       <Testimonial />
