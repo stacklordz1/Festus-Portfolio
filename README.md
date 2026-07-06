@@ -42,7 +42,7 @@ This Project was built to:
 nahh i'm not gonna let y'all setup my portfolio
 i got pics in there
 
-A real-dev should know how to set it up, imma make it publci repo
+A real-dev should know how to set it up, imma make it public repo
 
 ## Closure/Appreciation
 
